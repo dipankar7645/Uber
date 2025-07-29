@@ -1,3 +1,4 @@
+// TTL
 # User Registration Endpoint
 
 ## POST /users/register
@@ -139,3 +140,5 @@ The request body should be a JSON object containing the following fields:
 
 - Ensure that the `Content-Type` header is set to `application/json` when making the request.
 - The `token` in the success response is a JWT token that can be used for authenticated requests.
+
+
